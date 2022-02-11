@@ -3,6 +3,7 @@
 This repository contains the Keras implementation of the paper titled <br>
 "**An Unsupervised Approach towards Varying Human Skin Tone Using Generative Adversarial Networks**"
 https://ieeexplore.ieee.org/abstract/document/9412852
+Arxiv: https://arxiv.org/abs/2010.16092
 
 This is an inference code. 
 The checkpoints and a sample dataset are upload at,
