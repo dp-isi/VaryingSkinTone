@@ -14,16 +14,16 @@ This code can be run in 2 ways:
 1. Using our trained segmentation model the skin segmentation part
     To execute in this case:<br>
     set the following in the params.py file <br>
-    dataset_path = './Datasets/DeepFashion/Category-and-Attribute-Prediction-Benchmark/'<br>
+        dataset_path = './Datasets/DeepFashion/Category-and-Attribute-Prediction-Benchmark/'<br>
     Command to run:<br>
-    python2 stage/test_skin.py -batch_size 1 -range_count 10 -seg_choice False -test_filename deepfashion_names_upper.txt<br>
+        python2 stage/test_skin.py -batch_size 1 -range_count 10 -seg_choice False -test_filename deepfashion_names_upper.txt<br>
 
 3. Using pre-computed segmentations by some other method of your choice and then running our skin tone changing model on the provided image and the estimated segmentation.<br>
     To execute in this case:<br>
     set the following in the params.py file <br>
-    dataset_path = './Datasets/MyData/'<br>
+        dataset_path = './Datasets/MyData/'<br>
     Command to run:<br>
-    python2 stage/test_skin.py -batch_size 1 -range_count 10 -seg_choice True -test_filename test_external.txt<br>
+        python2 stage/test_skin.py -batch_size 1 -range_count 10 -seg_choice True -test_filename test_external.txt<br>
 
 
 --------------------------------------------------------------------------------------------------------------
