@@ -27,7 +27,7 @@ This code can be run in 2 ways:
 
 
 --------------------------------------------------------------------------------------------------------------
-The code is tested in the following versions:
+The code is tested in the following versions:<br>
 keras = '2.2.4'
 tensorflow = '1.14.0'
 python = '2.7.12'
